@@ -106,11 +106,21 @@ body {
 }
 
 .submitted-state {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .submitted-state__selection {
   color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 19%, 18%);
+  padding: 10px 15px;
+  border-radius: 50px;
+  margin: 20px 0 10px 0;
+  font-size: 14px;
 }
 
 .rating__submissions {
@@ -153,16 +163,7 @@ button {
   display: flex;
 }
 
-ul {
-  margin-top: 100px;
-  color: white;
-  list-style: none;
-}
-
-li a {
-  color: white;
-  text-decoration: none;
-  padding: 10px;
-  
+.rating {
+  display: none;
 }
 
