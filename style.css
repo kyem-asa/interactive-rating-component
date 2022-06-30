@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body {
+  background-color: #000;
+  font-family: 'Overpass';
+}
+
+.main {
+  width: 375px;
+  background-color: hsl(213, 19%, 18%);
+}
+
+.rating__header,
+.submitted-state__header {
+  color: hsl(0, 0%, 100%);
+}
+
+.rating__copy, 
+.submitted-state__copy {
+  color: hsl(217, 12%, 63%);
+}
+
+.submitted-state__selection {
+  color: hsl(25, 97%, 53%);
+}
+
+.rating__submissions {
+  list-style: none;
+}
+
+.rating__submissions a {
+  color: hsl(217, 12%, 63%);
+  text-decoration: none;
+}
+
+.rating__btn {
+  background-color: hsl(25, 97%, 53%);
+  color:hsl(0, 0%, 100%)
+}
