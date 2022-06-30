@@ -16,40 +16,45 @@
 </head>
 <body>
 
-  <div class="main">
-    <img src="/images/icon-star.svg" class="rating__icon" alt="A small orange star">
-    <!-- Rating state start -->
-    <h1 class="rating__header">How did we do?</h1>
-    <p class="rating__copy">
-      Please let us know how we did with your support request. All feedback is appreciated
-      to help us improve our offering!
-    </p>
-    <ul class="rating__submissions">
-      <li class="rating__submissions__links"><a href="">1</a></li> 
-      <li class="rating__submissions__links"><a href="">2</a></li> 
-      <li class="rating__submissions__links"><a href="">3</a></li> 
-      <li class="rating__submissions__links"><a href="">4</a></li> 
-      <li class="rating__submissions__links"><a href="">5</a></li>
-    </ul>
-    <button class="rating__btn">Submit</button>
-    <!-- Rating state end -->
-    <section class="submitted-state">
-      <!-- Thank you state start -->
-      <img src="/images/illustration-thank-you.svg" class="submitted-state__illus"alt="A illustrated roll of paper with a card and small orange circle around it">
-      <p class="submitted-state__selection">You selected <!-- Add rating here --> out of 5</p>
-      <h2 class="submitted-state__header">Thank you!</h2>
-      <p class="submitted-state__copy">
-        We appreciate you taking the time to give a rating. If you ever need more support,
-        don’t hesitate to get in touch!
-      </p>
-      <!-- Thank you state end -->
-    </section>
-  </div>
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="wrapper">
+    <div class="main">
+      <div class="main__container">
+        <class class="rating">
+          <img src="/images/icon-star.svg" class="rating__icon" alt="A small orange star">
+          <!-- Rating state start -->
+          <h1 class="rating__header">How did we do?</h1>
+          <p class="rating__copy">
+            Please let us know how we did with your support request. All feedback is appreciated
+            to help us improve our offering!
+          </p>
+          <ul class="rating__submissions flex">
+            <li class="rating__submissions__links"><a href="">1</a></li>
+            <li class="rating__submissions__links"><a href="">2</a></li>
+            <li class="rating__submissions__links"><a href="">3</a></li>
+            <li class="rating__submissions__links"><a href="">4</a></li>
+            <li class="rating__submissions__links"><a href="">5</a></li>
+          </ul>
+          <button class="rating__btn">Submit</button>
+          <!-- Rating state end -->
+        </class>
+        <section class="submitted-state">
+          <!-- Thank you state start -->
+          <img src="/images/illustration-thank-you.svg" class="submitted-state__illus"alt="A illustrated roll of paper with a card and small orange circle around it">
+          <p class="submitted-state__selection">You selected <!-- Add rating here --> out of 5</p>
+          <h2 class="submitted-state__header">Thank you!</h2>
+          <p class="submitted-state__copy">
+            We appreciate you taking the time to give a rating. If you ever need more support,
+            don’t hesitate to get in touch!
+          </p>
+          <!-- Thank you state end -->
+        </section>
+      </div>
+    </div>
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
   </div>
 </body>
 </html>
