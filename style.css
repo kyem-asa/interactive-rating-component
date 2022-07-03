@@ -121,7 +121,7 @@ body {
   justify-content: space-evenly;
 } 
 
-.rating__submissions a {
+/* .rating__submissions a {
   color: hsl(217, 12%, 63%);
   text-decoration: none;
   font-size: 14px;
@@ -132,6 +132,10 @@ body {
   cursor: pointer;
 }
 
+.rating__submissions__links:visited {
+  background-color: hsl(25, 97%, 53%);
+}
+
 .rating__submissions a:hover {
   color: hsl(0, 0%, 100%);
 }
@@ -139,9 +143,15 @@ body {
 .rating__submissions a:active {
   color: hsl(0, 0%, 100%);
 }
+
 .rating__submissions__links:active {
   background-color: hsl(25, 97%, 53%);
 }
+
+.rating__submissions__links:visited {
+  background-color: hsl(25, 97%, 53%);
+}
+
 
 .rating__submissions__links {
   background-color: hsl(213, 19%, 18%);
@@ -149,10 +159,43 @@ body {
   width: 50px; 
   height: 50px;
   border-radius: 50%;
-  display: flex; /* or inline-flex */
+  display: flex;
   align-items: center; 
   justify-content: center;
-} 
+}  */
+
+
+.rating__submissions__links a {
+  background-color: hsl(213, 19%, 18%);
+  margin-right: 10px;
+  width: 50px; 
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  color:hsl(217, 12%, 63%);
+  text-decoration: none;
+}
+
+.rating__submissions__links a:hover {
+  background-color: hsl(217, 12%, 63%);
+  cursor: pointer;
+  color: hsl(0, 0%, 100%)
+}
+
+.rating__submissions__links a:active {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+/* .rating__submissions__links a:visited {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+} */
+
+
+
 
 button {
   background-color: hsl(25, 97%, 53%);
