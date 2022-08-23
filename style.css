@@ -162,6 +162,11 @@ body {
   color: hsl(0, 0%, 100%);
 }
 
+.rating__submissions__links a:visited {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
 button {
   background-color: hsl(25, 97%, 53%);
   color:hsl(0, 0%, 100%);
