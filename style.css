@@ -55,7 +55,7 @@ table {
 }
 
 body {
-  background-color: #000;
+  background-color: rgb(25, 26, 29);
   font-family: 'Overpass';
   display: flex;
   justify-content: center;
@@ -74,10 +74,27 @@ body {
 
 .main {
   width: 325px;
-  background: hsl(216, 12%, 8%);
-  /* background: linear-gradient(103deg, rgba(52,57,79,1) 0%, rgba(20,21,25,1) 99%); */
+  background: 
+  linear-gradient(
+  45deg,
+  hsl(216deg 12% 8%) 0%,
+  hsl(216deg 12% 9%) 7%,
+  hsl(216deg 13% 9%) 13%,
+  hsl(216deg 14% 10%) 20%,
+  hsl(215deg 14% 11%) 26%,
+  hsl(215deg 15% 12%) 32%,
+  hsl(215deg 16% 12%) 39%,
+  hsl(215deg 16% 13%) 45%,
+  hsl(214deg 17% 14%) 52%,
+  hsl(214deg 17% 14%) 58%,
+  hsl(214deg 18% 15%) 65%,
+  hsl(214deg 18% 16%) 73%,
+  hsl(214deg 19% 17%) 80%,
+  hsl(214deg 19% 17%) 89%,
+  hsl(213deg 20% 18%) 100%
+);
   margin: 0 auto;
-  border-radius: 40px;
+  border-radius: 30px;
 }
 
 .main__container {
@@ -121,50 +138,6 @@ body {
   justify-content: space-evenly;
 } 
 
-/* .rating__submissions a {
-  color: hsl(217, 12%, 63%);
-  text-decoration: none;
-  font-size: 14px;
-}
-
-.rating__submissions__links:hover {
-  background-color: hsl(217, 12%, 63%);
-  cursor: pointer;
-}
-
-.rating__submissions__links:visited {
-  background-color: hsl(25, 97%, 53%);
-}
-
-.rating__submissions a:hover {
-  color: hsl(0, 0%, 100%);
-}
-
-.rating__submissions a:active {
-  color: hsl(0, 0%, 100%);
-}
-
-.rating__submissions__links:active {
-  background-color: hsl(25, 97%, 53%);
-}
-
-.rating__submissions__links:visited {
-  background-color: hsl(25, 97%, 53%);
-}
-
-
-.rating__submissions__links {
-  background-color: hsl(213, 19%, 18%);
-  margin-right: 10px;
-  width: 50px; 
-  height: 50px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center; 
-  justify-content: center;
-}  */
-
-
 .rating__submissions__links a {
   background-color: hsl(213, 19%, 18%);
   margin-right: 10px;
@@ -189,14 +162,6 @@ body {
   color: hsl(0, 0%, 100%);
 }
 
-/* .rating__submissions__links a:visited {
-  background-color: hsl(25, 97%, 53%);
-  color: hsl(0, 0%, 100%);
-} */
-
-
-
-
 button {
   background-color: hsl(25, 97%, 53%);
   color:hsl(0, 0%, 100%);
@@ -207,6 +172,7 @@ button {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
+  border: none;
 } 
 
 button:hover {
